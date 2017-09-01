@@ -8,98 +8,126 @@ and open the template in the editor.
     Author     : Joaquin Martinez <juacom04@gmail.com>
 */
 
-  html
-            {
-                height: calc(100% - 175px);
-            }
+html
+{
+    height: calc(100% - 175px);
+}
 
-            body
-            {
-                background-color: #c3c3c3;
-                margin: 0px;
-                height:100%;
-            }
+body
+{
+    background-color: #c3c3c3;
+    margin: 0px;
+    height:100%;
+}
 
-            #wapper
-            {
-                width: 80%;
-                height: 100%;
-                margin-left: 10%;
-            }
+#wapper
+{
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+}
 
-            #logo
-            {
-                font-family: 'GFS+Didot', serif;
-                font-size: 80px;
-                color:#464646;
-                text-align: center;
-            }
+#logo
+{
+    font-family: 'GFS+Didot', serif;
+    font-size: 80px;
+    color:#464646;
+    text-align: center;
+}
 
-            #logo:before 
-            {
-                content: url(../images/logo.png);
-                top: 16px;
-                position: relative;
-            }
-            #logo:after 
-            {
-                content: url(../images/logo.png);
-                top: 16px;
-                position: relative;
+#logo:before 
+{
+    content: url(../images/logo.png);
+    top: 16px;
+    position: relative;
+    margin-right: 20px;
+}
+#logo:after 
+{
+    content: url(../images/logo.png);
+    top: 16px;
+    position: relative;
+    display: inline-block;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    margin-left: 20px;
 
-            }
-            img
-            {
-                display: block;
-                margin: 0 auto
-            }
+}
+img
+{
+    display: block;
+    margin: 0 auto
+}
 
-            #menu
-            {
-                background-color: #464646;
-                width: 100%;
-            }
+#menu
+{
+    background-color: #464646;
+    width: 100%;
+}
 
-            ul {
-                list-style-type: none;
-                margin: 0;
-                padding: 0;
-                overflow: hidden;
-                padding-left: 90px;
-            }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-left: 90px;
+}
 
-            li {
-                float: left;
-                border-right: 1px solid #c3c3c3;
-            }
+li {
+    float: left;
+    border-right: 1px solid #c3c3c3;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
 
-            li a {
-                display: block;
-                color: white;
-                text-align: center;
-                padding: 14px 16px;
-                text-decoration: none;
-            }
+li:last-child {
+    border-right: none;
+}
 
-            li:last-child {
-                border-right: none;
-            }
-
-            li:first-child {
-                border-left:  1px solid #c3c3c3;
-            }
+li:first-child {
+    border-left:  1px solid #c3c3c3;
+}
 
 
-            li a:hover:not(.active) {
-                background-color: #111;
-            }
+li:hover{
+    background-color: #3b843e;
+}
 
-            .active {
-                background-color: #4CAF50;
-            }
 
-            #content
-            {
-                height: 100%;
-                background-color: #f1f1f1;
-            }
+li:hover:not(.active) {
+    background-color: #353535;
+}
+
+#about
+{
+    float:right;
+    border-right: 1px solid #c3c3c3;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    background-color: #4CAF50;
+
+}
+.active {
+    background-color: #4CAF50;
+}
+
+#content
+{
+    height: 100%;
+    background-color: #f1f1f1;
+}
+
+#test
+{
+    position: relative;
+    top:50%;
+    left:50%;
+}
