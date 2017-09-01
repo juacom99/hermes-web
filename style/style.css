@@ -91,7 +91,7 @@ and open the template in the editor.
 
 
             li a:hover:not(.active) {
-                background-color: #111;
+                background-color: #ff0000;
             }
 
             .active {
