@@ -14,14 +14,19 @@
             <div id="logo">Hermes Client</div>
             <div id="menu">
                 <ul id="navi">
-                    <li class="active">Main</li>
-                    <li>Screershots</li>
-                    <li>Archive</li>
+                    <li id="main" class="active">Main</li>
+                    <li id="screenshots">Screershots</li>
+                    <li id="archive">Archive</li>
                     <li  id="about" >About</li>
                 </ul>
             </div>
             <div id="content">
                 <div id="test"> Page under construction</div>
+                
+                <div class="download">
+                    <img src="images/download.png" />
+                    <a href="https://api.github.com/repos/juacom99/hermes-client/tarball/v1.0a">Hermes Client I (v1.0a)</a>
+                </div>
             </div>
         </div>
     </body>
