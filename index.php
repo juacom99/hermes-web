@@ -7,6 +7,7 @@
         <link href="https://fonts.googleapis.com/css?family=GFS+Didot" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="style/style.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="scripts/jquery-dateFormat.js"></script>
         <script src="scripts/events.js"></script>
     </head>
     <body>
@@ -22,11 +23,6 @@
             </div>
             <div id="content">
                 <div id="test"> Page under construction</div>
-                
-                <div class="download">
-                    <img src="images/download.png" />
-                    <a href="https://api.github.com/repos/juacom99/hermes-client/tarball/v1.0a">Hermes Client I (v1.0a)</a>
-                </div>
             </div>
         </div>
     </body>
